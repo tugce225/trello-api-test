@@ -1,0 +1,60 @@
+{
+	"name": "trello-api-test",
+	"version": "1.0.0",
+	"description": "Trello API test projesi.",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:tugce225/trello-api-test.git"
+	},
+	"scripts": {
+		"test:run": "jest",
+		"format": "prettier --write \"src/**/*.ts\" \"test/**/*.js\"",
+		"lint": "eslint \"{src,apps,libs,test,tests,consts}/**/*.js\"",
+		"lint:fix": "eslint \"{src,apps,libs,test,tests,consts}/**/*.js\" --fix"
+	},
+	"keywords": [
+		"selenium",
+		"chromedriver",
+		"webautomation"
+	],
+	"author": "Tugçe Yıldırım <tugce_255@hotmail.com>",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"chromedriver": "^102.0.0",
+		"geckodriver": "^3.0.1",
+		"jest": "^27.2.5",
+		"jest-junit": "^13.0.0",
+		"log4js": "^6.5.2",
+		"node": "^17.7.2",
+		"selenium-webdriver": "^4.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.7",
+		"@babel/eslint-parser": "^7.5.4",
+		"@babel/preset-env": "^7.16.11",
+		"eslint": "^8.0.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"prettier": "^2.3.2"
+	},
+	"jest": {
+		"verbose": true,
+		"testTimeout": 15000,
+		"moduleFileExtensions": [
+			"js",
+			"json"
+		],
+		"reporters": [
+			"default",
+			"jest-junit"
+		],
+		"testResultsProcessor": "jest-junit",
+		"rootDir": "src",
+		"testRegex": ".*\\.test\\.js$",
+		"collectCoverageFrom": [
+			"**/*.js"
+		],
+		"coverageDirectory": "../coverage",
+		"testEnvironment": "node"
+	}
+}
