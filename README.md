@@ -18,7 +18,7 @@ Projeyi çalıştırmak için aşağıdaki adımları sırası ile takip etmeniz
 git clone git@github.com:tugce225/trello-api-test.git
 
 # Bağımlılıları yüklüyoruz
-cd gittigidiyor-web-automation-test
+cd trello-api-test
 npm install
 # ya da
 yarn install
