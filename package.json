@@ -7,7 +7,7 @@
 		"url": "git@github.com:tugce225/trello-api-test.git"
 	},
 	"scripts": {
-		"test:run": "jest",
+		"test": "jest",
 		"format": "prettier --write \"src/**/*.ts\" \"test/**/*.js\"",
 		"lint": "eslint \"{src,apps,libs,test,tests,consts}/**/*.js\"",
 		"lint:fix": "eslint \"{src,apps,libs,test,tests,consts}/**/*.js\" --fix"

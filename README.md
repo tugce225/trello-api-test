@@ -24,5 +24,5 @@ npm install
 yarn install
 
 # Testi başlatıyoruz
-npm run test:run
+npm run test
 ```
