@@ -13,9 +13,9 @@
 		"lint:fix": "eslint \"{src,apps,libs,test,tests,consts}/**/*.js\" --fix"
 	},
 	"keywords": [
-		"selenium",
-		"chromedriver",
-		"webautomation"
+		"axios",
+		"jest",
+		"api"
 	],
 	"author": "Tugçe Yıldırım <tugce_255@hotmail.com>",
 	"dependencies": {
